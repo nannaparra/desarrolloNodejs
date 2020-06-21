@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>India - Contacto</title>
+        <%- include ('partials/head.html') %>
+    </head>
+    <body>
+        <header>
+            <h1>
+                Contacto
+            </h1>
+        </header>
+        <nav>
+            <a class="btn" href="/">Inicio</a>
+        </nav>
+        <main id="boxForm">
+            <table>
+                <tr>
+                    <td>
+                        <ul class="no-style">
+                            <li class="li_vertical">
+                              Nombre:
+                            </li>
+                            <li class="li_vertical">
+                               Apellido:
+                            </li>
+                            <li class="li_vertical">
+                                Email:
+                            </li>
+                            <li class="li_vertical">
+                               Mensaje:  
+                            </li>
+                            
+                        </ul>
+                        
+                    </td>
+                    <td>
+                        <form>
+                            <input class="entrada" name="Nombre" type="text" required />
+                            <br/>
+                            <input class="entrada" name="Apellido" type="text" /> 
+                            <br/>
+                            <input class="entrada" name="Email" type="email" placeholder="email@servicio.com" required/>
+                            <br/>
+                            <textarea class="entrada" id=txtmsj name="Msj" required></textarea>
+                            <div id="Enviar">
+                                <input  type="submit" onclick="msjEnviado()" />
+                            </div>
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        </main>
+        <footer>
+            Desarrollado por: Nadina Parra.
+        </footer>
+    </body>
+</html>

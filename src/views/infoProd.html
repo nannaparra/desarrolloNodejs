@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Descripcion del Producto - India</title>
+        <%- include('partials/head.html') %>
+    </head>
+    <body>
+        <header>
+            <h1>
+                India
+            </h1>
+        </header>
+        <nav>
+             <a class="btn" href="/">Inicio</a>
+        </nav>
+        <main>
+            <table>
+                <tr>
+                    <td>
+                        <img id="imgGrande" width="500px" height="700px" src=""/>
+                    </td>
+                    <td>
+                        <ul class="no-style" id=boxDesc>
+                            <li>
+                                <h2>Conjunto</h2>
+                            </li>
+                            <li>
+                                <p>Descripcion del producto...</p>
+                            </li>
+                            <li>
+                                Talles: 
+                                <button id="btnTalle" onclick="selectTalle()">XS</button>
+                                <button  onclick="selectTalle()">S</button>
+                                <button  onclick="selectTalle()">M</button>
+                                <button  onclick="selectTalle()">L</button>
+                                <button  onclick="selectTalle()">XL</button>
+                            </li>
+                            <li> $ 111.11 </li>
+                            <li><button>Agregar al Carrito.</button></li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </main>
+        <footer>
+            Desarrollado por: Nadina Parra.
+        </footer>
+    </body>
+
+</html>
